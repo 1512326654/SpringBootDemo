@@ -1,5 +1,8 @@
 package com.example.entity;
 
+/**
+ * 实体类
+ */
 public class Student {
     private Integer id;
     private String name;

@@ -4,9 +4,18 @@ import com.example.entity.Student;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.util.List;
+/**
+ * DAO接口
+ * @author 董尧
+ *
+ */
+
 @Mapper
 @ResponseBody
 public interface StudentMapper {
-     Student getStudent();
+     /**
+      * 获取学生信息
+      * @return
+      */
+     public abstract Student getStudent();
 }

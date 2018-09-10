@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
+ * @author worldyao
  * 此处@MapperScan("com.example.dao")是扫描DAO接口
  */
 @SpringBootApplication
